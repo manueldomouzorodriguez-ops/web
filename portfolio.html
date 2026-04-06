@@ -2,47 +2,59 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de proyectos de Manuel Domouzo.">
+  <title>Portfolio | Manuel Domouzo</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Manuel Domouzo</a>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="index.html#servicios">Servicios</a>
+        <a href="index.html#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
 
-<header>
-  <h1>Portfolio</h1>
-  <nav>
-    <a href="index.html">Home</a>
-  </nav>
-</header>
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1>Portfolio</h1>
+        <p class="lead">Una selección de proyectos enfocados en resultados de negocio y experiencia de usuario.</p>
 
-<section class="portfolio">
-  <h2>Proyectos</h2>
-  <p>Proyectos enfocados en estrategia, creatividad y resultados reales</p>
+        <div class="cards project-list">
+          <article class="card project">
+            <h2>Global Transaction</h2>
+            <p><strong>Contexto:</strong> Empresa B2B/B2C con necesidad de mejorar su presencia digital.</p>
+            <p><strong>Trabajo realizado:</strong> Estrategia digital, branding, campañas y rediseño web.</p>
+            <p><strong>Impacto:</strong> Mejora en la captación de leads y mayor claridad del mensaje comercial.</p>
+          </article>
 
-  <!-- PROYECTO 1 -->
-  <div class="project">
-    <h3>Global Transaction</h3>
-    <p><strong>Contexto:</strong> Empresa B2B y B2C con necesidad de mejorar su presencia digital.</p>
-    <p><strong>Qué hice:</strong> Estrategia, branding, campañas y desarrollo web.</p>
-    <p><strong>Resultado:</strong> Mejora en captación de leads y presencia digital.</p>
-  </div>
+          <article class="card project">
+            <h2>Dynamics VR</h2>
+            <p><strong>Contexto:</strong> Empresa tecnológica enfocada en experiencias inmersivas.</p>
+            <p><strong>Trabajo realizado:</strong> Identidad visual, implementación de CRM y diseño de materiales.</p>
+            <p><strong>Impacto:</strong> Mayor coherencia de marca y optimización del seguimiento de oportunidades.</p>
+          </article>
 
-  <!-- PROYECTO 2 -->
-  <div class="project">
-    <h3>Dynamics VR</h3>
-    <p><strong>Contexto:</strong> Empresa tecnológica enfocada en experiencias inmersivas.</p>
-    <p><strong>Qué hice:</strong> Branding, CRM, diseño visual.</p>
-    <p><strong>Resultado:</strong> Mayor coherencia de marca y organización de leads.</p>
-  </div>
+          <article class="card project">
+            <h2>Marca personal consultor</h2>
+            <p><strong>Contexto:</strong> Profesional independiente sin presencia digital estructurada.</p>
+            <p><strong>Trabajo realizado:</strong> Creación de web personal, estructura de servicios y copywriting.</p>
+            <p><strong>Impacto:</strong> Posicionamiento profesional más sólido y aumento de solicitudes de contacto.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  <!-- AÑADIR MÁS PROYECTOS -->
-  <!-- COPIA ESTE BLOQUE Y LISTO -->
-
-</section>
-
-<footer>
-  <p>© 2026 Manuel Domouzo</p>
-</footer>
-
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Manuel Domouzo · Portfolio</p>
+    </div>
+  </footer>
 </body>
 </html>
